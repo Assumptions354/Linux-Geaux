@@ -1,0 +1,6 @@
+#!/bin/sh
+B=binary
+[ -d isolinux ] && B=.
+for f in $B/isolinux/*.cfg $B/boot/grub/*.cfg; do
+  [ -f "$f" ] && sed -i -e 's/Debian GNU\/Linux/Linux Geaux/g' -e 's/Linux Geaux 12/Linux Geaux/g' "$f"
+done
