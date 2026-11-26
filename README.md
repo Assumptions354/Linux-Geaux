@@ -118,3 +118,7 @@ lb build
 The boot menu still shows the stock Debian GNU/Linux 12 title. That text is built into the bootloader components and could not be changed with a config rewrite.
 
 The base is Debian, so some system files like /etc/os-release still use Debian values.
+
+# Demo
+
+In the Linux Geaux Demo video and the Linux Geaux Desktop screenshot, it shows a built in wallpaper. I could not figure out how to get that into the final build.
